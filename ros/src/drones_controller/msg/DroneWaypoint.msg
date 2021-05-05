@@ -1,0 +1,2 @@
+geometry_msgs/PoseStamped goalPose
+uint64 minExecutionTick

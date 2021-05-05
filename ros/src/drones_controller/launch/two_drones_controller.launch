@@ -1,0 +1,10 @@
+<launch>
+
+    <group ns="/airsim_node/Drone1">
+        <node pkg="drones_controller" type="drones_controller_node" name="drones_controller_node" output="screen" />
+    </group>
+    <group ns="/airsim_node/Drone2">
+        <node pkg="drones_controller" type="drones_controller_node" name="drones_controller_node" output="screen" />
+    </group>
+
+</launch>

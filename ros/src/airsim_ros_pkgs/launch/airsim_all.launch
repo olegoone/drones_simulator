@@ -1,0 +1,35 @@
+<launch> 
+
+<!-- AirSim ROS Wrapper -->
+	<include file="$(find airsim_ros_pkgs)/launch/airsim_node.launch"/>
+<!-- Vehicle Dynamic Constraints -->
+	<include file="$(find airsim_ros_pkgs)/launch/dynamic_constraints.launch"/>
+
+<!-- Simple PID Position Controller -->
+	<!-- <group ns="/airsim_node/Drone1">
+		<include file="$(find airsim_ros_pkgs)/launch/position_controller_simple.launch"/>
+	</group>
+
+	<group ns="/airsim_node/Drone2">
+		<include file="$(find airsim_ros_pkgs)/launch/position_controller_simple.launch"/>
+	</group>
+
+	<group ns="/airsim_node/Drone3">
+		<include file="$(find airsim_ros_pkgs)/launch/position_controller_simple.launch"/>
+	</group>
+
+	<group ns="/airsim_node/Drone4">
+		<include file="$(find airsim_ros_pkgs)/launch/position_controller_simple.launch"/>
+	</group>
+	
+	<group ns="/airsim_node/Drone5">
+		<include file="$(find airsim_ros_pkgs)/launch/position_controller_simple.launch"/>
+	</group>
+
+	<group ns="/airsim_node/Drone6">
+		<include file="$(find airsim_ros_pkgs)/launch/position_controller_simple.launch"/>
+	</group>
+
+	<include file="$(find drones_controller)/launch/six_drones_controller.launch"/> -->
+	
+</launch>

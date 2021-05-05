@@ -1,0 +1,3 @@
+drones_controller/DroneWaypoint[] waypoints
+float32 waypointWaitSeconds
+bool isPathCyclic
